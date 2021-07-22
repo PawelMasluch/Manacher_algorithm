@@ -87,7 +87,7 @@ int main(){
 	std::string prompts[2] = { "Promienie palindromow parzystych:\n", "\nPromienie palindromow nieparzystych:\n" };
 	
 	REP(i,0,1){
-		std::cout << prompts[i];;
+		std::cout << prompts[i];
 		
 		REP(j,0,lengthS-1){
 			std::cout << "R[" << j+1 << "]=" << R[i][j] << std::endl;  
